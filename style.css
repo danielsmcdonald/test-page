@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  border: 1px solid black;
+  font-family: "Roboto", sans-serif;
+}
+
+.top-container {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 16px;
+  display: flex;
+  width: 75vw;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.header-logo a {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.right-links {
+  display: flex;
+  gap: 16px;
+}
+
+.right-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.intro-flexbox {
+  width: 75vw;
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+  align-self: center;
+  margin: 80px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-bottom: 0;
+}
+
+.intro {
+  width: 420px;
+}
+
+.intro p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0px 0px 8px 0px;
+}
+
+.intro-flexbox img {
+  width: 500px;
+  height: auto;
+}
+
+.intro button {
+  padding: 8px 24px 8px 24px;
+}
